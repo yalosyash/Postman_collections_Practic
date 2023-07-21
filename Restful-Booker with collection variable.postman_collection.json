@@ -193,7 +193,7 @@
 							"});\r",
 							"\r",
 							"pm.test(\"Body matches string\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"Vladislav\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"Ya\");\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -221,7 +221,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"firstname\" : \"Vladislav\",\r\n    \"lastname\" : \"Yalosyash\",\r\n    \"totalprice\" : 2754,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-06-01\",\r\n        \"checkout\" : \"2023-06-02\"\r\n    },\r\n    \"additionalneeds\" : \"Wants to poop on the floor\"\r\n}"
+					"raw": "{\r\n    \"firstname\" : \"Ya\",\r\n    \"lastname\" : \"Yalosyash\",\r\n    \"totalprice\" : 2754,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-06-01\",\r\n        \"checkout\" : \"2023-06-02\"\r\n    },\r\n    \"additionalneeds\" : \"Wants to eat\"\r\n}"
 				},
 				"url": {
 					"raw": "https://restful-booker.herokuapp.com/booking/",
@@ -251,7 +251,7 @@
 							"});\r",
 							"\r",
 							"pm.test(\"Body matches string\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"Vladislav\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"Ya\");\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -324,7 +324,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"firstname\" : \"Valakas\",\r\n    \"lastname\" : \"Ded\",\r\n    \"totalprice\" : 2754,\r\n    \"depositpaid\" : false,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-06-01\",\r\n        \"checkout\" : \"2023-06-02\"\r\n    },\r\n    \"additionalneeds\" : \"Wants to poop on the floor\"\r\n}"
+					"raw": "{\r\n    \"firstname\" : \"Valakas\",\r\n    \"lastname\" : \"Ded\",\r\n    \"totalprice\" : 2754,\r\n    \"depositpaid\" : false,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2023-06-01\",\r\n        \"checkout\" : \"2023-06-02\"\r\n    },\r\n    \"additionalneeds\" : \"Wants to eat\"\r\n}"
 				},
 				"url": {
 					"raw": "https://restful-booker.herokuapp.com/booking/{{bookingid}}",
